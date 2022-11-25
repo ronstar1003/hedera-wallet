@@ -1,0 +1,21 @@
+{
+  "name": "HashPack Wallet",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "HashPack Wallet ver 1.0",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png",
+    "default_title": "Open your wallet"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
